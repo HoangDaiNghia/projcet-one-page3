@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#main {
+    background: url('/assets/imgs/background.jpg') top center / cover no-repeat;
+    border-radius: 20px;
+    width: 1160px;
+    height: 229px;
+    margin: 100px auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.column {
+    text-align: center;
+    opacity: 0.9;
+}
+
+
+.coloumn-icon,
+.coloumn-number  {
+    font-size: 40px;
+    padding: 20px 0px;
+}
+
+
+.coloumn-number {
+
+}
+
+
+.column-text {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
